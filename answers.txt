@@ -1,0 +1,5 @@
+
+Project Euler numerical answers
+computed by Yannick Thomassen (@pearI)
+
+Problem 001: 233168
