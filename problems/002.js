@@ -8,7 +8,6 @@
  * valued terms.
  */
 
-
 // We first define a function 'fibonacci' which calculates the number that is in
 // the given index in the fibonacci sequence. Using this function, we create an
 // array that is 34 elements in length (since the 35th position would exceed
