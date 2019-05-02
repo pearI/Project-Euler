@@ -5,7 +5,7 @@
  * What is the sum of the digits of the number 2^1000?
  */
 
-const BigNumber = require( 'big-number' );
+const BigNumber = require( "big-number" );
 
 // Evaluate 2 to the power of 1000 and iterate through every character.
 // After summing up all the characters we are left with out answer.
