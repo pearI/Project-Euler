@@ -8,12 +8,11 @@
  */
 
 // We loop through 100 to 999 twice so we can iterate the products of all
-// 3-digit numbers. Doing this in reverse assures us that the first palindromic
-// number is also the largest. Each iteration we check if the evaluated number
+// 3-digit numbers. Each iteration we check if the evaluated number
 // as string equals that string in reverse, when it does, we have our answer.
 const palindromes = [];
-for ( let i = 1000; i > 100; i-- ) {
-    for ( let j = 1000; j > 100; j-- ) {
+for ( let i = 100; i < 1000; i++ ) {
+    for ( let j = 100; j > 1000; j++ ) {
         const number = `${ i * j }`, reversed = number.split( "" ).reverse().join( "" );
         if ( number === reversed ) palindromes.push( number );
     }
