@@ -9,7 +9,7 @@
  */
 
 // We iterate trough an arbitrary amount of numbers until we hit our answer.
-// With each iteration we check if there are is no more remainder after a 
+// With each iteration we check if there is no more remainder after a 
 // division of the numbers 1 to 20. If all the divisions evaluate to 0 and 
 // `isFound` is not set to false, we have found our answer.
 for ( let i = 10; i < 25e7; i++ ) {
