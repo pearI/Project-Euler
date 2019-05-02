@@ -1,0 +1,15 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "Project Euler is a website dedicated to a series of computational problems intended to be solved with computer programs.",
+  "main": "001.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "project", "euler", "code", "problems" ],
+  "author": "Yannick Thomassen",
+  "license": "ISC",
+  "dependencies": {
+    "big-number": "^2.0.0"
+  }
+}
